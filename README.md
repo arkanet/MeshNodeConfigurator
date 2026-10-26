@@ -1,21 +1,25 @@
 # Mesh Node Configurator
 
-Configuratore open source indipendente per nodi LoRa mesh autonomi. Compatibile come strumento informativo con progetti Meshtastic, DarkMesh, Reticulum e altri, senza implicare supporto firmware universale.
+Configuratore **open source e indipendente** per la progettazione di nodi LoRa mesh autonomi.
 
-## Sviluppo
+## Sito
 
-```bash
-npm install
-npm run dev
-npm run build
-```
+https://meshnode-4rkanet.vercel.app
 
-Deploy Vercel: framework Vite, output `dist`. Nessuna API prezzi, affiliazione o credenziale richiesta.
+## Pubblicazione
 
-## Prezzi e acquisti
+Applicazione statica senza dipendenze, API, account o backend commerciale. Il codice della versione pubblicata si trova in `index.html`; può essere distribuito su Vercel come progetto statico (framework: Other, nessun build command). La distribuzione corrente è stata caricata manualmente su Vercel. **GitHub e Vercel non sono ancora collegati tramite Git Integration**: per abilitare deploy automatici occorre installare l'integrazione GitHub nel team ArkaNet.
 
-I prezzi sono stime orientative e non offerte aggiornate in tempo reale. I collegamenti AliExpress sono ordinari, senza affiliazioni. Ogni acquisto avviene direttamente tra acquirente e venditore.
+## Trasparenza
 
-## RF
+Prezzi orientativi e non verificati in tempo reale. Link AliExpress non affiliati, nessuna commissione o intermediazione.
 
-La massima potenza ammissibile di un filtro SAW dipende dal modello esatto: verificare sempre datasheet, condizioni operative e margine.
+## Sicurezza RF
+
+La massima potenza ammissibile dei filtri SAW varia per modello; verificare il datasheet e le condizioni operative.
+
+## Riferimenti
+
+- https://meshtastic.org/
+- https://darkmesh.neocities.org/
+- https://reticulum.network/
